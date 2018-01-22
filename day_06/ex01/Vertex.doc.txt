@@ -1,0 +1,15 @@
+<- Vertex ----------------------------------------------------------------------
+The Vertex class handles space 3D vertices.
+
+An instance can be contructed from x,y,z values:
+    new Vertex( array( 'x' => 0.0, 'y' => 0.0, 'z' => 0.0, ... );
+
+Optional Parameters:
+- ['w' => 0.0] : w coordinate value (homogeneous coordinate).
+- ['color' => $color] : color class instance.
+By DEFAULT this values are setted 'w' = 1, 'color' = 0xFFFFFF (white)
+
+The Vertex provide reading and writing accessors for its five attributes.
+
+The class no provides methods.
+---------------------------------------------------------------------- Vertex ->

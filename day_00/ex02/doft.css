@@ -1,0 +1,162 @@
+body{
+    background-color:#4f4f4f;
+    align-content: center;
+}
+
+.header-div{
+    background-color: #919191;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 5px 5px #212121;
+    margin: 15px auto;
+    width: 1500px;
+    height: 140px;
+}
+.allshit{
+    width: 1370;
+    height: 580;
+    margin: 20px auto;
+}
+.left-div{
+    float:left;
+    width: 145px;
+    height: 425px;
+    background-color: #909090;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 5px 5px #212121;
+}
+.right-div{
+    float:left;
+    width: 145px;
+    height: 425px;
+    background-color: #909090;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 5px 5px #212121;
+}
+.cluster-div{
+    float:left;
+    width: 1020px;
+    height: 585px;
+    background-color: #909090;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 5px 5px #212121;
+    margin: 0px 30px;
+}
+.dotf{
+    float: left;
+    width: 435px;
+    height: 125px;
+    margin: 10px;
+}
+.loupe{
+    float: right;
+    width: 280px;
+    height: 170px;
+    margin-top: -40px;
+    margin-right: 10px;
+}
+.reload{
+    float: right;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+}
+.close{
+    clear: right;
+    float: right;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    margin-top: 70px;
+}
+.cluster{
+    float: left;
+    width: 1000px;
+    height: 565px;
+    margin: 10px;
+}
+.arrow{
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.main{
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.oeil{
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin-left: 35px;
+    margin-top: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #ff0000;
+    border-radius: 5px 5px 5px 5px;
+
+}
+.outil{
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.chat-icon{
+    float: left;
+    width: 70px;
+    height: 70px;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+.book{
+    float: left;
+    width: 75px;
+    height: 95px;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+.towel{
+    float: left;
+    width: 65px;
+    height: 55px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.brick{
+    float: left;
+    width: 125px;
+    height: 90px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background-image: url(resources/brick.jpg);
+}
+.green-win{
+    float: left;
+    width: 520px;
+    height: 163px;
+    background-color: rgb(123, 253, 123);
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 5px 5px 5px #212121;
+    margin-left: 10%;
+    margin-top: -100px;
+}
+p{
+    margin:10px;
+}
+.ordinateur{
+    text-shadow: 5px 5px 5px #f52222
+}
+.center2
+{
+ 
+    width: 1000px;
+    height: 580px;
+    margin-left: 5px; 
+    margin-top: 10px;   
+}

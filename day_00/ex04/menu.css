@@ -1,0 +1,57 @@
+body {
+    background-color: #666666;
+    font-style: sans-serif;
+    
+}
+ul {
+    margin: 0px;
+    padding: 0;
+}
+ul ul {
+    display: none;
+    position: absolute;
+    left: -1px;
+    top: 150px;
+   
+}
+ul ul ul {
+    left: 300px;
+    top: -1px;
+}
+li {
+    border-style: solid;
+    border-width: 1px;
+    list-style-type: none;
+    text-align: center;
+    position: relative;
+    line-height: 140px;
+    width: 300px;
+    height: 150px;
+    background-color: #E0E0E0;
+}
+
+.sandwich{
+    background-image: url(http://static.cuisineaz.com/680x357/i131220-.jpeg);
+    background-position: center;
+    background-size: 100%;
+}
+.head-menu{
+    background-color: #999999;
+    background-position: center;
+    background-size: 100%;
+    font-weight: bold;
+    font-size: 50;
+}
+.niveau3{
+    font-weight: bold;
+    font-size: 34;
+}
+li:hover ul.niveau2, li li:hover ul.niveau3 {display: block}
+table{
+    margin: auto;
+}
+td
+{
+    text-align:center; 
+    vertical-align:middle;
+}

@@ -1,0 +1,101 @@
+
+html, body
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+body
+{
+  background-color: #505050;
+}
+
+td
+{
+ border: 1vmin solid white;
+ width: 10vmin;
+ height: auto;
+ background-color: white;
+}
+
+.body_element
+{
+  width: 95%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #A9D0F5;
+  box-shadow: 10px 10px 10px;
+}
+
+.shop
+{
+  width: 95%;
+  height: 99%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  background-color: #A9D0F5;
+  box-shadow: 10px 10px 10px;
+}
+
+.text
+{
+  font-family: 'Chalkduster';
+  color: #FF8000;
+}
+
+.input
+{
+  width: 80px;
+  border-radius: 10px;
+}
+
+.img1
+{
+  margin-top: 25px;
+  margin-left: 25px;
+  width: 100px;
+  height: auto;
+}
+
+.background-img1
+{
+  margin-top: -200px;
+  margin-left: 70%;
+  width: 145px;
+  height: 145px;
+  background-color: #FF8000;
+  border-radius: 50%;
+}
+
+.background-img2
+{
+  margin-top: -200px;
+  margin-left: 70%;
+  width: 145px;
+  height: 145px;
+  background-color: #FF8000;
+  border-radius: 50%;
+}
+
+.case
+{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: #A9D0F5;
+  box-shadow: 10px 10px 10px;
+}
+
+.img-table
+{
+  width: 25vw;
+  height: 15vw;
+}

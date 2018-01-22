@@ -1,0 +1,30 @@
+<- Matrix ----------------------------------------------------------------------
+The Matrix class handles 4x4 Matrices.
+
+An instance can be contructed from an array:
+    new Matrix( array( 'preset' => 'TYPES', ... );
+*the value of 'preset' define the type of matrix and the other args received:
+ ==========================================================================
+|matrix type | preset value  | parameters                                  |
+|--------------------------------------------------------------------------|
+|IDENTITY    | 'IDENTITY'    |  nothing                                    |
+|SCALE       | 'SCALE'       | 'scale' : scale factor                      |
+|RX          | 'Ox ROTATION' | 'angle' : angle of rotation                 |
+|RY          | 'Oy ROTATION' | 'angle' : angle of rotation                 |
+|RZ          | 'Oz ROTATION' | 'angle' : angle of rotation                 |
+|TRANSLATION | 'TRANSLATION' | 'vtc'   : translation vector                |
+|PROJECTION  | 'PROJECTION'  | 'fov'   : field of view                     |
+|            |               | 'ratio' : projected image ratio             |
+|            |               | 'near'  : projection’s near clipping plane  |
+|            |               | 'far'   : projection’s far clipping plane   |
+ ==========================================================================
+
+The class provides the following methods :
+
+Matrix mult( Matrix $rhs ) :
+    returns the multiplication of both matrices.
+
+Vertex transformVertex( Vertex $vtx ) :
+    returns a new vertex resulting from the transformation of the vertex
+    by the matrix.
+---------------------------------------------------------------------- Matrix ->
